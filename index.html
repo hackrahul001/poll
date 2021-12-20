@@ -65,7 +65,7 @@ body{
 
     <div class="flex-container-head">
         
-        <div><span id="number" style="float: left;margin-left:0px;color:#eeda31;background-color: #b0b0b0;">1</span> <img class="gif" src="./g.gif"> <img class="img" src="./bjp.png"> Yogi again?</div>
+        <div><span id="number" style="float: left;margin-left:0px;color:#eeda31;background-color: #b0b0b0;">Current voter(s): 1</span> <img class="gif" src="./g.gif"> <img class="img" src="./bjp.png"> Yogi again?</div>
       </div>
 
 <div class="flex-container" style="margin-bottom: 1%;">
@@ -134,7 +134,7 @@ body{
         success: function(data){
             console.log(data.no["$numberLong"])
             var xValues = ["Yogi","Others"];
-          var yValues = [1000,888];
+          var yValues = [parse,888];
           console.log(yValues)
           var barColors = ["orange","rgb(86, 150, 247)"];
           
